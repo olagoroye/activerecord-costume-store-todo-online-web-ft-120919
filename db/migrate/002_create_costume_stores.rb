@@ -2,7 +2,8 @@
 
 def change 
     create_table :costume_stores do |t|
-      t.string :name
+      t.string:name
+      t.string :location
       t.integer :custume_inventory
       t.integer :employees_count
       t.string :size
