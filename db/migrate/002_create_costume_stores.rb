@@ -1,9 +1,9 @@
 # Create your costume_stores migration here
 
 def change 
-    create_table :costumes do |t|
+    create_table :costume_stores do |t|
       t.string :name
-      t.float :price
+      t.float :location
       t.string :image_url
       t.string :size
       t.timestamps
