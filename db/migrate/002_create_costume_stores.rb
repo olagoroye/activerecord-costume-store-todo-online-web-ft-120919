@@ -4,7 +4,7 @@ def change
     create_table :costume_stores do |t|
       t.string :name
       t.float :custume_inventory
-      t.string :image_url
+      t.string :employees_count
       t.string :size
       t.timestamps
     end
