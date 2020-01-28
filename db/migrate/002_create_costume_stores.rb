@@ -3,7 +3,7 @@
 def change 
     create_table :costume_stores do |t|
       t.string :name
-      t.float :location
+      t.float :custume_inventory
       t.string :image_url
       t.string :size
       t.timestamps
